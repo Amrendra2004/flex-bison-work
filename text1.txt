@@ -1,0 +1,13 @@
+For lex program:
+```
+ flex <file name>
+ gcc lex.yy.c 
+ a.exe
+```
+
+For YACC program:
+```
+flex <file name.l>
+bison -dy <file name.y>
+gcc lex.yy.c y.tab.c
+```
